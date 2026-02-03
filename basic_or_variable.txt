@@ -1,5 +1,0 @@
-1. console is use to print something
-
-2. - variables are container in js
-   - which value may change or not 
-   - which occupied particular memory 

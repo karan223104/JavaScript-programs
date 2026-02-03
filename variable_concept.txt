@@ -1,0 +1,17 @@
+1. console is use to print something
+
+2. - variables are container in js
+   - which value may change or not 
+   - which occupied particular memory 
+
+3. - variables are case sensitive 'a' and 'A' is different
+   - only letters, digit, _ , $ allowed not even space
+   - reserved word cannot variables
+
+   - mostly we use 'fullName' --> camel case
+
+4. -> let, const, var differnce
+
+      - var: variables can be redeclare or updated  (global scope)
+      - let: variables cannot be redeclare but updated  (local scope)
+      - const: variables cannot be redeclare or updated  (local scope)

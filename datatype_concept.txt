@@ -1,0 +1,23 @@
+1. there are two types of data types 
+
+    -> primitive
+       
+       - number --> use to store numeric value
+
+       - string --> use to store character, words
+
+       - boolean --> true or false, occured or not occured, 0 or 1, follow or not follow
+
+       - undefined --> value is not defined, no value yet
+
+       - null --> intentionally empty, Show nothing on the screen, commonly used when you want to  remove a component from the UI.
+
+       (Both undefined and null render nothing, but null is clearer in intent.)
+
+       - bigint --> used to store very large numbers that number cannot handle safely, 
+
+       - symbol -->
+
+    -> non-primitive
+
+       - objects --> contains variables, store data in key value pair
