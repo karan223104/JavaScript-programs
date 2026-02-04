@@ -1,0 +1,7 @@
+1. used to some condition in the code
+
+2. there are several type
+
+   -> if statment 
+   -> if else statment
+   -> nested if else

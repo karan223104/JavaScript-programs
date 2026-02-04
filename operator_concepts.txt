@@ -1,0 +1,42 @@
+1. used to perform some operation on data
+
+2. there are several operator 
+   
+   -> Airthmetic operators
+      
+      - +, -, *, /, %, ^
+
+      - increment/decrement --> unary operator increase and decrease self value
+      - modulus
+      - exponentiation
+      - multiplication/Division
+
+   -> assignment operators: use to assign value
+
+      - =, +=, -=, *=, %=, **=
+
+      - += --> a += 1 or a = a +1
+
+   -> comparison operators
+
+      - equal to: == 
+      - equal to & type: ===
+      - not equal to: !=
+      - not equal to & type: !==
+
+      - >, <, >=, <=
+
+   -> logical operators
+
+      - logical AND &&
+      - logical OR ||
+      - logical NOT !
+
+      -  a   b   &&   ||
+         
+         T   T   T    T
+         T   F   F    T
+         F   T   F    T
+         F   F   F    F
+      
+      
