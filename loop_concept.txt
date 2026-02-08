@@ -1,0 +1,52 @@
+1. there are several types of Loops in js
+
+   -> loops is use to execute code repeteadly
+
+      - for loop
+      
+        for(initilization; condition; inc/dec){
+
+          code or logic
+
+        }
+
+      - infinite loop --> a loop which never ended.
+        
+        -- where stoping condition is not false 
+
+      - while loop
+
+        initialization
+
+        while(condition){
+
+          code or logic
+
+        }
+
+      - do while loop 
+
+        initialization
+
+        do{
+
+          code or logic
+          inc/dec
+
+        }while(condition);
+
+      - loop for of
+
+        for(let val of strVar){
+
+          code or logic
+
+        }
+
+      - loop for in
+
+        for(let key of strVar){
+
+          code or logic
+          
+        }
