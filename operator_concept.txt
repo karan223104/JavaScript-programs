@@ -38,5 +38,15 @@
          T   F   F    T
          F   T   F    T
          F   F   F    F
-      
+
+3. operator precedence
+
+   -> (), **, * / %, + -
+
+4. condition ? true output : false output
+
+5. unary operator
+
+   -> pre-increment: ++a, --a  --> first increase value then print or any operation
+   -> post-increment: a++, a-- --> first print value then increment 
       

@@ -18,6 +18,8 @@
 
        - symbol -->
 
+       - NaN (not a number): 0/0 type of this is NaN (not valid) 
+
     -> non-primitive
 
        - objects --> contains variables, store data in key value pair
