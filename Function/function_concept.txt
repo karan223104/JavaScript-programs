@@ -1,0 +1,19 @@
+1. function is block of code that perform specific task, invoked whenever needed
+
+2. syntax
+
+    -> function functionName(){
+        // block of code
+    }
+
+    -> function functionName(parameter1, parameter2...){
+        // block of code
+    }
+
+3. calling
+
+    -> functionName(); 
+
+4. reduce redundancy or repeatation
+
+5. function parameter is like local variable

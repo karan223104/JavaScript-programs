@@ -1,0 +1,91 @@
+1. BOM (browser object model)
+
+    -> when browser open its create BOM
+
+    -> bom conatain all properties of browser
+     
+       - meta deta
+       - buttons
+       - urls etc...(many more)
+
+    -> ROOT object of bom is WINDOW (also called global object)
+       
+       - if we write window.key --> key is any, its give detail values or properties of it 
+
+
+2. DOM (Document object model)
+
+    -> when web page is loaded browser creat e dom of the page 
+
+    -> DOM is use to access or manipulate html document using javascript objects
+
+    -> ROOT object of dom is Document
+
+    -> hierarchy of it is
+
+
+                     window                <-- node(object)
+                        |
+                    document               <-- node(object) 
+                        |
+                html tree structure        <-- multiple node(object, tag, class, id, properties)
+
+       - also we can use the js loops, array or many more...
+
+
+
+3. DOM access or manipulation
+
+   -> get methods by which we can only access html
+
+    ** selecting with id
+         
+       - document.getElementById("id name")                 <-- use element because id is unique
+    
+    ** selecting with class
+         
+       - document.getElementByClassName("class name")      <-- use elements because class is not unique
+    
+    ** selecting with tag
+         
+       - document.getElementsByTagName("tag name")          <-- use elements because class is not unique
+
+    ** using queryselector
+       
+       - document.querySelector("id/class/tag")
+
+   -> node.style: display style to the node
+
+   -> properties:(By which we can set the value )
+
+      - tagName: return tag for element nodes
+
+      - innerText: return the text content of the element and all its children
+
+      - innerHtml: return the plain text or html content(all value with tags) in the html
+
+      - textContent: return textual content even for hidden element
+
+      - children, firstChild, lastChild, appendChild, removeChild
+
+        -- use for navigation --> one to another  
+
+   -> To get or set the attribute
+
+       ** getAttribute(attr): to get the attribute values
+
+       ** setAttribute(attr, value): to set attribute value
+
+   -> insert elements
+
+      - first create element: let el = document.createElement("div")  
+      
+      - node.append(el): adds at the end of node (inside)
+      - node.prepend(el): adds at the start of node (inside)
+      - node.before(el): adds before the end of node (outside)
+      - node.after(el): adds after the end of node (outside)
+
+   -> remove elements
+
+      - node.remove(): remove the node
+      

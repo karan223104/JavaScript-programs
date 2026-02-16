@@ -1,0 +1,91 @@
+1. array 
+
+    -> array is collection of item or same type of data
+
+    -> its store values in continuos manner.
+
+    -> its like object but here key-->index or position and value-->value
+
+    -> index start from 0
+
+    -> array is mutable in js 
+
+    -> array indices arr[0], arr[1], arr[2]
+
+2. looping over am array
+
+    -> print all element of an array
+
+    -> for(let idx = 0; idx<arr.length; idx++)
+
+3. array methods
+
+    -> push: add data into array
+
+            - push at last
+    
+    -> pop: remove element from last
+
+            - if pop value is empty then it remove last element
+
+    -> concat: join multiple array and return the result
+
+    -> unshift: add to start
+
+    -> shift: delete from start
+
+    -> slice: return the piece of an array
+
+            - slice(startindex, endindex)
+            - if (0, 2) then it remove 0, 1
+            
+    -> splice: change original array (add, remove, replace)
+
+            - splice(startindex, deletecount, newvalue)
+
+
+4. important array methods
+
+    ** map: create new array with result of some operation. the value its callback returns are used to form array.
+
+        -> const newArray = array.map(callbackFunction(currentValue, index, array) => {
+                        // Return element for newArray
+        })
+
+        - index, array is optional
+
+        ->  {
+                cars.map((c)=>{
+                        return <h1>{c}</h1>   //run error free
+                })
+                }
+
+
+                {
+                cars.map((c)=>{
+                        return 
+                        <h1>{c}</h1>    //generate error write return statment beside the return
+                })
+                }
+
+                {
+                cars.map((c)=>{
+                        return (
+                        <h1>{c}</h1> // want to write below must use ()
+                        )
+                })
+                }
+ 
+    ** filter: create new array of element that give true for a condition/filter
+
+        -> let newArr = arr.filter((val) = >{
+                return val % 2 === 0;
+        })
+
+    ** reduce: perform the operation on array and reduce its value by one value
+
+        -> its return single value
+
+        -> array.reduce(callbackFn, initialValue)
+
+        -> we can use it in factorial, avg, etc...

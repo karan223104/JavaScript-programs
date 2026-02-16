@@ -1,0 +1,13 @@
+4. foreach loop
+
+    -> its one type of method of an array 
+
+    -> arr.forEach(callBackfunction)
+
+        - callBackfunction: here it is a function to execute for each element in the array
+
+        - a callBackfunction is the passed as an argument to another function
+
+        - arr.forEach((val) => {
+                console.log(val);
+        });
