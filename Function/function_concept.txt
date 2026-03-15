@@ -16,4 +16,30 @@
 
 4. reduce redundancy or repeatation
 
-5. function parameter is like local variable
+5. function parameter or argument is like local variable
+
+    -> function funcName(arg1, arg2...){
+        // code
+       }
+
+6. return keyword
+
+    -> function funcName(arg1, arg2...){
+        // code
+
+        return val; 
+       }
+
+7. function expression 
+
+   - store function into variable (nameless function)
+
+   - const variable = function(arg1, arg2..){
+       // code
+     }
+
+8. higher order Function
+
+   - function that takes one or multiple function as an arguments and return function
+
+   - a function that return functions as an argument

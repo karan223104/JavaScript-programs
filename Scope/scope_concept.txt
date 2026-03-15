@@ -1,0 +1,21 @@
+1. scope or variables
+
+   - Global Scope: Variables declared outside any function or block reside in the global scope and are accessible from anywhere in the program.
+
+   - Function Scope: Variables declared with var, let, or const inside a function are contained within that function's scope and cannot be accessed from outside of it.
+
+   - Block Scope: Introduced in ES6, this scope applies to variables declared with let and const inside a block of code enclosed by curly braces {} (e.g., in if statements or for loops). These variables are not accessible outside that specific block.
+
+   - Lexical Scope: variable defined in outer function so that variable accessible inside another function defined after the variable
+
+      --> function outerFunc () {
+
+            let x = 5;
+            let y = 6;
+
+            function innerFunc() {
+               console.log(x);
+            }
+
+             innerFunc
+         }

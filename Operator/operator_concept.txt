@@ -50,3 +50,6 @@
    -> pre-increment: ++a, --a  --> first increase value then print or any operation
    -> post-increment: a++, a-- --> first print value then increment 
       
+6. comparision of non-number
+
+   -> we can compare non number like alphabets its possible because every letter has unique code assigned(unicode)

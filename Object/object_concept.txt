@@ -1,0 +1,45 @@
+1. Objects are variables that can store both values and functions.
+
+   - Values are stored as key:value pairs called properties.
+   - Functions are stored as key:function() pairs called methods.Objects are variables that can store both values and functions.
+   - Values are stored as key:value pairs called properties.
+
+2. object literals: we can write between {} ,its called object literals
+
+3. add/update/delete value
+
+   - object.key = "value";  // update
+   - delete object.key     // delete
+   - object.newkey = "value";  // add
+
+4. nested object 
+
+   - const obj1 = {
+        obj11 ={
+
+        },
+        obj12 ={
+            
+        },
+        obj13 ={
+            
+        }
+   };
+
+5. array of object
+
+   - const array = [
+        {
+            key:value 
+        },
+        {
+            key:value
+        }
+   ];
+
+   array[1].city  <-- access value of object (add,update,delete)
+
+6. math object
+
+   - math object methods --> math.E, math.PI, math.abs(n), math.pow(a,b) etc.
+   - math.random method 

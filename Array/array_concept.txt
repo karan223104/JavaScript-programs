@@ -12,6 +12,8 @@
 
     -> array indices arr[0], arr[1], arr[2]
 
+    -> array references -->a variable that stores the memory address of an entire array, rather than its individual data elements
+
 2. looping over am array
 
     -> print all element of an array
